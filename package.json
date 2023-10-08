@@ -1,0 +1,23 @@
+{
+  "name": "live--apitest",
+  "version": "1.0.0",
+  "description": "mocha chai reqres",
+  "main": "index.js",
+  "scripts": {
+    "welcome": "mocha test/api/welcome.js",
+    "test get": "mocha test/api/getContoh.js",
+    "test post": "mocha test/api/postContoh.js",
+    "test post 2 tc": "mocha test/api/chaiAssert.js"
+  },
+  "author": "koko",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0"
+  }
+}
